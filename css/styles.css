@@ -70,16 +70,17 @@ nav a {
     }
     .container{
       border: #846A6A;
+      border-radius: 15%;
     }
     .eyeshadow {
       width: 500px;
       mix-blend-mode: exclusion;
-      border-radius: 15%;
+      clip-path: inset(5% 20% 15% 10%);
+      float: right;
     }
 
     p {
       color: #dadada;
-      font-family: $font-sans;
       line-height: 1.6;
     }
   }
