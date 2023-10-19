@@ -55,6 +55,8 @@ nav a {
       float: left;
       shape-outside: circle(45%);
       transform: translate(-15%);
+      -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
+      mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
     }
     
     .lipstick {
@@ -62,7 +64,7 @@ nav a {
       float: right;
       shape-outside: ellipse(45%);
       transform: translate(15%);
-    }
+}
     
     .brushes {
       float: left;
@@ -85,6 +87,7 @@ nav a {
     p {
       color: #dadada;
       line-height:1.8;
+      font-size: 16pt;
     }
     h2{
       color:#A2999E;
